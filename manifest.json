@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+
+  "name": "Network Response Search",
+  "version": "1.0",
+  "description": "Search a value inside network responses",
+
+  "icons": {
+    "16": "search.png",
+    "32": "search.png",
+    "128": "search.png"
+  },
+
+  "devtools_page": "devtools.html",
+
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webRequest"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
